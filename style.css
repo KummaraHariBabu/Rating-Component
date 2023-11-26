@@ -14,8 +14,6 @@ body {
     align-items: center;
     justify-content: center;
     height: 100vh;
-
-
 }
 .main-page {
     width: 30%;
@@ -23,11 +21,10 @@ body {
     background-color: #233640;
     border-radius: 15px;
     padding: 25px;
-
-
-
 }
-
+.hidden {
+    display: none;
+}
 #star {
     margin: 0px;
     color: #F57C00;
