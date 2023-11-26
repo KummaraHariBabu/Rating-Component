@@ -16,6 +16,7 @@ rating_cards.forEach((rating_card)=>{
         const card = e.target;
         card.classList.add("checked");
         rate = e.target.innerText;
+        console.log(rate);
     })
 })
 
@@ -27,3 +28,7 @@ submit_btn.addEventListener("click" , ()=>{
 
     }
 })
+
+let reload = ()=>{setTimeout(() => {
+    location.reload();    
+}, 5000);}
