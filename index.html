@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Interactive rating component</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+  </style>
+</head>
+<body>
+
+  <!-- Rating state start -->
+  <div class="card">
+    <div class="main-page">
+      <div class="first-page">
+        <a href="#" class="rate" id="star"><span><i class="fa-solid fa-star"></i></span></a>
+        <h2 class="headerName">How did we do?</h2>
+        <p class="description">Please let us know how we did with your support request. All feedback is appreciated 
+          to help us improve our offering!</p>
+        <a href="#" class="rate scores1"><span>1</span></a>
+        <a href="#" class="rate scores2"><span>2</span></a>
+        <a href="#" class="rate scores3"><span>3</span></a>
+        <a href="#" class="rate scores4"><span>4</span></a>
+        <a href="#" class="rate scores5"><span>5</span></a>
+        <button class="btn-name">Submit</button>
+      </div>
+      <div class="thank_section hidden">
+        <img src="./images/illustration-thank-you.svg" alt="thankyou">
+        <div class="chip">
+          <p>You selected <span id="rate"></span> out of 5</p>
+        </div>
+        <h2 class="headerName">Thank you!</h2>
+        <p class="description"> We appreciate you taking the time to give a rating. If you ever need more support, 
+          don’t hesitate to get in touch!</p>
+      </div>
+    </div>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
