@@ -25,10 +25,9 @@ submit_btn.addEventListener("click" , ()=>{
         rate_point.innerText = rate;
         rating_section.classList.add("hidden");
         thank_section.classList.remove("hidden");
-
     }
 })
 
-let reload = ()=>{setTimeout(() => {
+let reload = ()=> { setTimeout(() => {
     location.reload();    
 }, 5000);}
